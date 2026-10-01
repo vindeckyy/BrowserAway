@@ -1,0 +1,359 @@
+{
+  "extName": {
+    "message": "BrowserAway"
+  },
+  "extDescription": {
+    "message": "Bloquea tu navegador con una contraseña. Todas las ventanas se cierran hasta que introduzcas la contraseña correcta. Incluye bloqueo automático, bloqueo por inactividad y cuarentena contra fuerza bruta."
+  },
+  "commandLockNow": {
+    "message": "Bloquear el navegador ahora"
+  },
+  "menuLockBrowser": {
+    "message": "Bloquear navegador"
+  },
+  "menuLockNow": {
+    "message": "Bloquear ahora"
+  },
+  "menuOpenSettings": {
+    "message": "Abrir ajustes"
+  },
+  "notifActivateTitle": {
+    "message": "BrowserAway aún no está activo"
+  },
+  "notifActivateBody": {
+    "message": "Haz clic aquí para crear una contraseña y activar la protección."
+  },
+  "notifIdleTitle": {
+    "message": "Bloqueo en $1 segundos"
+  },
+  "notifIdleBody": {
+    "message": "Llevas un rato inactivo. Mueve el ratón o pulsa una tecla para cancelar."
+  },
+  "notifLockedNewWindow": {
+    "message": "El navegador está bloqueado. Introduce tu contraseña para abrirlo."
+  },
+  "popupLockBrowser": {
+    "message": "Bloquear navegador"
+  },
+  "popupOpenSettings": {
+    "message": "Abrir ajustes"
+  },
+  "navSettings": {
+    "message": "Ajustes"
+  },
+  "navPassword": {
+    "message": "Cambiar contraseña"
+  },
+  "navToggleTheme": {
+    "message": "Cambiar modo oscuro"
+  },
+  "ok": {
+    "message": "Aceptar"
+  },
+  "back": {
+    "message": "Atrás"
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "yes": {
+    "message": "Sí"
+  },
+  "no": {
+    "message": "No"
+  },
+  "clear": {
+    "message": "Borrar"
+  },
+  "dontClear": {
+    "message": "No borrar"
+  },
+  "pleaseInput": {
+    "message": "Introduce un valor"
+  },
+  "minutes": {
+    "message": "$1 min"
+  },
+  "toastError": {
+    "message": "Error"
+  },
+  "toastWarning": {
+    "message": "Aviso"
+  },
+  "toastSuccess": {
+    "message": "Hecho"
+  },
+  "lockThisBrowser": {
+    "message": "Este navegador está"
+  },
+  "lockStateLocked": {
+    "message": "bloqueado"
+  },
+  "lockStateQuarantined": {
+    "message": "en cuarentena"
+  },
+  "lockPasswordLabel": {
+    "message": "Introduce tu contraseña para desbloquear"
+  },
+  "lockShowPassword": {
+    "message": "Mostrar contraseña"
+  },
+  "lockHidePassword": {
+    "message": "Ocultar contraseña"
+  },
+  "lockUnlock": {
+    "message": "Desbloquear"
+  },
+  "lockErrorEmpty": {
+    "message": "Introduce tu contraseña."
+  },
+  "lockErrorWrong": {
+    "message": "Contraseña incorrecta. Inténtalo de nuevo."
+  },
+  "lockErrorQuarantined": {
+    "message": "La cuarentena está activa. Espera a que termine."
+  },
+  "lockErrorFailed": {
+    "message": "Algo salió mal: $1"
+  },
+  "lockQuarantineTitle": {
+    "message": "Cuarentena activa"
+  },
+  "lockQuarantineBody": {
+    "message": "$1 intentos fallidos activaron la cuarentena. Podrás volver a intentarlo en $2 segundos."
+  },
+  "lockToastQuarantined": {
+    "message": "Demasiados intentos fallidos. La cuarentena ha comenzado."
+  },
+  "lockToastAttempts": {
+    "message": "Intentos fallidos: $1 de $2. La cuarentena empieza al llegar a $2."
+  },
+  "setMainHelp": {
+    "message": "Interruptor principal. Mientras esté apagado, BrowserAway nunca bloquea el navegador."
+  },
+  "setSave": {
+    "message": "Aplicar cambios"
+  },
+  "setSaved": {
+    "message": "Ajustes guardados."
+  },
+  "bannerInactive": {
+    "message": "BrowserAway está desactivado, así que tu navegador no está protegido. Activa el interruptor principal y aplica los cambios."
+  },
+  "bannerDontRemind": {
+    "message": "No volver a recordármelo"
+  },
+  "bannerPrivateWindows": {
+    "message": "Las ventanas privadas no se bloquean porque BrowserAway no puede ejecutarse en ellas. Permítelo en about:addons → BrowserAway → Ejecutar en ventanas privadas."
+  },
+  "alName": {
+    "message": "Bloqueo automático"
+  },
+  "alDescription": {
+    "message": "Bloquea el navegador automáticamente al iniciarse y elige qué se abre tras desbloquearlo."
+  },
+  "alStartState": {
+    "message": "Al desbloquear, abrir"
+  },
+  "alStartStateHint": {
+    "message": "Se aplica tras un bloqueo automático."
+  },
+  "alStateUrl": {
+    "message": "Una página concreta"
+  },
+  "alStateNewTab": {
+    "message": "Una pestaña nueva"
+  },
+  "alStateRestore": {
+    "message": "Ventanas anteriores"
+  },
+  "alStartUrl": {
+    "message": "Dirección de la página"
+  },
+  "alStartUrlHint": {
+    "message": "Se abre en una ventana nueva tras un bloqueo automático."
+  },
+  "errInvalidUrl": {
+    "message": "Introduce una dirección web válida (http o https)."
+  },
+  "qmName": {
+    "message": "Modo cuarentena"
+  },
+  "qmHelp": {
+    "message": "Tras demasiadas contraseñas incorrectas, la pantalla de bloqueo rechaza intentos durante un tiempo y puede borrar datos de navegación."
+  },
+  "qmDuration": {
+    "message": "Duración de la cuarentena"
+  },
+  "qmDurationHint": {
+    "message": "Tras $1 intentos fallidos el navegador permanece bloqueado $2 minuto(s) y no acepta entradas."
+  },
+  "qmMaxAttempts": {
+    "message": "Intentos fallidos antes de la cuarentena"
+  },
+  "qmMaxAttemptsHint": {
+    "message": "Entre 1 y 20."
+  },
+  "qmClearHistory": {
+    "message": "Borrar datos de navegación en cuarentena"
+  },
+  "qmClearHistoryHint": {
+    "message": "Al llegar a $1 intentos fallidos se borran los datos seleccionados. Requiere el permiso de datos de navegación."
+  },
+  "qmPermissionDenied": {
+    "message": "No se concedió el permiso, por lo que no se borrarán datos de navegación."
+  },
+  "qmClearOptionsTitle": {
+    "message": "Datos a borrar"
+  },
+  "qmClearOptionsHint": {
+    "message": "Se borran cuando $1 intentos fallidos activan la cuarentena; abarca los últimos $2 día(s)."
+  },
+  "qmClearDurationTitle": {
+    "message": "Intervalo de tiempo"
+  },
+  "qmClearDurationAlert": {
+    "message": "Aviso: esto elimina de forma permanente los datos seleccionados de los últimos $1 día(s)."
+  },
+  "clearDuration1": {
+    "message": "Último día"
+  },
+  "clearDuration7": {
+    "message": "Últimos 7 días"
+  },
+  "clearDuration30": {
+    "message": "Últimos 30 días"
+  },
+  "clearDuration365": {
+    "message": "Último año"
+  },
+  "qmCookies": {
+    "message": "Cookies"
+  },
+  "qmPasswords": {
+    "message": "Contraseñas guardadas"
+  },
+  "qmDownloads": {
+    "message": "Historial de descargas"
+  },
+  "qmFormData": {
+    "message": "Datos de formularios"
+  },
+  "qmHistory": {
+    "message": "Historial de navegación"
+  },
+  "qlName": {
+    "message": "Bloqueo rápido"
+  },
+  "qlDescription": {
+    "message": "Bloquea al instante con el teclado."
+  },
+  "qlCombination": {
+    "message": "Atajo"
+  },
+  "qlCombinationHint": {
+    "message": "Pulsa Cambiar y escribe la nueva combinación. Esc cancela."
+  },
+  "qlChange": {
+    "message": "Cambiar"
+  },
+  "qlReset": {
+    "message": "Restablecer"
+  },
+  "qlUnassigned": {
+    "message": "Sin asignar"
+  },
+  "qlPressKeys": {
+    "message": "Pulsa la nueva combinación de teclas…"
+  },
+  "qlInvalid": {
+    "message": "\"$1\" no se puede usar como atajo."
+  },
+  "imName": {
+    "message": "Bloqueo por inactividad"
+  },
+  "imDescription": {
+    "message": "Bloquea automáticamente cuando te alejas del ordenador."
+  },
+  "imDuration": {
+    "message": "Inactividad antes de bloquear"
+  },
+  "imDurationHint": {
+    "message": "Bloquea tras $1 minuto(s) sin actividad de teclado o ratón."
+  },
+  "imNotify": {
+    "message": "Avisar antes de bloquear"
+  },
+  "obStepWelcome": {
+    "message": "Bienvenida"
+  },
+  "obStepPassword": {
+    "message": "Contraseña"
+  },
+  "obWelcomeTitle": {
+    "message": "Te damos la bienvenida a BrowserAway"
+  },
+  "obWelcomeBody": {
+    "message": "Protege tu navegador con una contraseña. Al bloquearlo se cierran todas las ventanas y solo la contraseña correcta las recupera."
+  },
+  "obStart": {
+    "message": "Empezar"
+  },
+  "obPasswordTitle": {
+    "message": "Crea tu contraseña"
+  },
+  "obPasswordBody": {
+    "message": "Elige una contraseña de al menos 6 caracteres. No se puede recuperar si la olvidas."
+  },
+  "obPassword": {
+    "message": "Contraseña"
+  },
+  "obPasswordAgain": {
+    "message": "Repite la contraseña"
+  },
+  "obFinish": {
+    "message": "Guardar y activar"
+  },
+  "errPasswordShort": {
+    "message": "Usa al menos $1 caracteres."
+  },
+  "errPasswordMismatch": {
+    "message": "Las contraseñas no coinciden."
+  },
+  "errPasswordSame": {
+    "message": "La contraseña nueva debe ser distinta de la anterior."
+  },
+  "errOldWrong": {
+    "message": "La contraseña actual es incorrecta."
+  },
+  "pwTitle": {
+    "message": "Cambiar contraseña"
+  },
+  "pwDescription": {
+    "message": "Introduce tu contraseña actual y elige una nueva."
+  },
+  "pwOld": {
+    "message": "Contraseña actual"
+  },
+  "pwOldHint": {
+    "message": "La contraseña con la que desbloqueas."
+  },
+  "pwNew": {
+    "message": "Contraseña nueva"
+  },
+  "pwNewHint": {
+    "message": "Al menos 6 caracteres, distinta de la anterior."
+  },
+  "pwAgain": {
+    "message": "Repite la contraseña nueva"
+  },
+  "pwAgainHint": {
+    "message": "Escribe de nuevo la contraseña nueva."
+  },
+  "pwSave": {
+    "message": "Guardar contraseña"
+  },
+  "pwChanged": {
+    "message": "Contraseña cambiada."
+  }
+}

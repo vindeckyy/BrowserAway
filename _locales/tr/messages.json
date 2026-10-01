@@ -1,0 +1,359 @@
+{
+  "extName": {
+    "message": "BrowserAway"
+  },
+  "extDescription": {
+    "message": "Tarayıcınızı parolayla kilitleyin. Doğru parola girilene kadar tüm pencereler kapanır. Otomatik kilit, boşta kilitleme ve kaba kuvvet karantinası içerir."
+  },
+  "commandLockNow": {
+    "message": "Tarayıcıyı şimdi kilitle"
+  },
+  "menuLockBrowser": {
+    "message": "Tarayıcıyı kilitle"
+  },
+  "menuLockNow": {
+    "message": "Şimdi kilitle"
+  },
+  "menuOpenSettings": {
+    "message": "Ayarları aç"
+  },
+  "notifActivateTitle": {
+    "message": "BrowserAway henüz etkin değil"
+  },
+  "notifActivateBody": {
+    "message": "Parola belirleyip korumayı açmak için buraya tıklayın."
+  },
+  "notifIdleTitle": {
+    "message": "$1 saniye içinde kilitlenecek"
+  },
+  "notifIdleBody": {
+    "message": "Bir süredir boştasınız. İptal etmek için fareyi oynatın veya bir tuşa basın."
+  },
+  "notifLockedNewWindow": {
+    "message": "Tarayıcı kilitli. Açmak için parolanızı girin."
+  },
+  "popupLockBrowser": {
+    "message": "Tarayıcıyı kilitle"
+  },
+  "popupOpenSettings": {
+    "message": "Ayarları aç"
+  },
+  "navSettings": {
+    "message": "Ayarlar"
+  },
+  "navPassword": {
+    "message": "Parolayı değiştir"
+  },
+  "navToggleTheme": {
+    "message": "Koyu modu aç/kapat"
+  },
+  "ok": {
+    "message": "Tamam"
+  },
+  "back": {
+    "message": "Geri"
+  },
+  "cancel": {
+    "message": "İptal"
+  },
+  "yes": {
+    "message": "Evet"
+  },
+  "no": {
+    "message": "Hayır"
+  },
+  "clear": {
+    "message": "Temizle"
+  },
+  "dontClear": {
+    "message": "Temizleme"
+  },
+  "pleaseInput": {
+    "message": "Lütfen bir değer girin"
+  },
+  "minutes": {
+    "message": "$1 dk"
+  },
+  "toastError": {
+    "message": "Hata"
+  },
+  "toastWarning": {
+    "message": "Uyarı"
+  },
+  "toastSuccess": {
+    "message": "Başarılı"
+  },
+  "lockThisBrowser": {
+    "message": "Bu tarayıcı"
+  },
+  "lockStateLocked": {
+    "message": "kilitli"
+  },
+  "lockStateQuarantined": {
+    "message": "karantinada"
+  },
+  "lockPasswordLabel": {
+    "message": "Kilidi açmak için parolanızı girin"
+  },
+  "lockShowPassword": {
+    "message": "Parolayı göster"
+  },
+  "lockHidePassword": {
+    "message": "Parolayı gizle"
+  },
+  "lockUnlock": {
+    "message": "Kilidi aç"
+  },
+  "lockErrorEmpty": {
+    "message": "Lütfen parolanızı girin."
+  },
+  "lockErrorWrong": {
+    "message": "Yanlış parola. Tekrar deneyin."
+  },
+  "lockErrorQuarantined": {
+    "message": "Karantina etkin. Bitmesini bekleyin."
+  },
+  "lockErrorFailed": {
+    "message": "Bir şeyler ters gitti: $1"
+  },
+  "lockQuarantineTitle": {
+    "message": "Karantina etkin"
+  },
+  "lockQuarantineBody": {
+    "message": "$1 hatalı deneme karantinayı başlattı. $2 saniye sonra tekrar deneyebilirsiniz."
+  },
+  "lockToastQuarantined": {
+    "message": "Çok fazla hatalı deneme. Karantina başladı."
+  },
+  "lockToastAttempts": {
+    "message": "Hatalı deneme: $1 / $2. Karantina $2 denemede başlar."
+  },
+  "setMainHelp": {
+    "message": "Ana anahtar. Kapalıyken BrowserAway tarayıcıyı hiç kilitlemez."
+  },
+  "setSave": {
+    "message": "Değişiklikleri uygula"
+  },
+  "setSaved": {
+    "message": "Ayarlar kaydedildi."
+  },
+  "bannerInactive": {
+    "message": "BrowserAway kapalı, bu yüzden tarayıcınız korunmuyor. Ana anahtarı açıp değişiklikleri uygulayın."
+  },
+  "bannerDontRemind": {
+    "message": "Bir daha hatırlatma"
+  },
+  "bannerPrivateWindows": {
+    "message": "Gizli pencereler kilitlenmez çünkü BrowserAway orada çalışamıyor. about:addons → BrowserAway → Gizli Pencerelerde Çalıştır bölümünden izin verin."
+  },
+  "alName": {
+    "message": "Otomatik kilit"
+  },
+  "alDescription": {
+    "message": "Tarayıcıyı açılışta otomatik kilitleyin ve kilit açıldıktan sonra neyin açılacağını seçin."
+  },
+  "alStartState": {
+    "message": "Kilit açıldıktan sonra aç"
+  },
+  "alStartStateHint": {
+    "message": "Otomatik kilitten sonra geçerlidir."
+  },
+  "alStateUrl": {
+    "message": "Belirli bir sayfa"
+  },
+  "alStateNewTab": {
+    "message": "Yeni sekme"
+  },
+  "alStateRestore": {
+    "message": "Önceki pencereler"
+  },
+  "alStartUrl": {
+    "message": "Sayfa adresi"
+  },
+  "alStartUrlHint": {
+    "message": "Otomatik kilitten sonra yeni bir pencerede açılır."
+  },
+  "errInvalidUrl": {
+    "message": "Geçerli bir web adresi girin (http veya https)."
+  },
+  "qmName": {
+    "message": "Karantina modu"
+  },
+  "qmHelp": {
+    "message": "Çok fazla yanlış paroladan sonra kilit ekranı bir süre giriş kabul etmez ve tarama verilerini silebilir."
+  },
+  "qmDuration": {
+    "message": "Karantina süresi"
+  },
+  "qmDurationHint": {
+    "message": "$1 hatalı denemeden sonra tarayıcı $2 dakika boyunca kilitli kalır ve giriş kabul etmez."
+  },
+  "qmMaxAttempts": {
+    "message": "Karantina öncesi hatalı deneme"
+  },
+  "qmMaxAttemptsHint": {
+    "message": "1 ile 20 arasında."
+  },
+  "qmClearHistory": {
+    "message": "Karantinada tarama verilerini temizle"
+  },
+  "qmClearHistoryHint": {
+    "message": "$1 hatalı denemeye ulaşıldığında seçilen veriler silinir. Tarama verileri izni gerekir."
+  },
+  "qmPermissionDenied": {
+    "message": "İzin verilmedi, bu yüzden tarama verileri temizlenmeyecek."
+  },
+  "qmClearOptionsTitle": {
+    "message": "Temizlenecek veriler"
+  },
+  "qmClearOptionsHint": {
+    "message": "$1 hatalı deneme karantinayı başlattığında silinir; son $2 günü kapsar."
+  },
+  "qmClearDurationTitle": {
+    "message": "Zaman aralığı"
+  },
+  "qmClearDurationAlert": {
+    "message": "Uyarı: seçilen verilerin son $1 günlük kısmı kalıcı olarak silinir."
+  },
+  "clearDuration1": {
+    "message": "Son 1 gün"
+  },
+  "clearDuration7": {
+    "message": "Son 7 gün"
+  },
+  "clearDuration30": {
+    "message": "Son 30 gün"
+  },
+  "clearDuration365": {
+    "message": "Son 1 yıl"
+  },
+  "qmCookies": {
+    "message": "Çerezler"
+  },
+  "qmPasswords": {
+    "message": "Kayıtlı parolalar"
+  },
+  "qmDownloads": {
+    "message": "İndirme geçmişi"
+  },
+  "qmFormData": {
+    "message": "Form verileri"
+  },
+  "qmHistory": {
+    "message": "Gezinti geçmişi"
+  },
+  "qlName": {
+    "message": "Hızlı kilit"
+  },
+  "qlDescription": {
+    "message": "Klavyeyle anında kilitleyin."
+  },
+  "qlCombination": {
+    "message": "Kısayol"
+  },
+  "qlCombinationHint": {
+    "message": "Değiştir'e basıp yeni kombinasyonu yazın. Esc iptal eder."
+  },
+  "qlChange": {
+    "message": "Değiştir"
+  },
+  "qlReset": {
+    "message": "Sıfırla"
+  },
+  "qlUnassigned": {
+    "message": "Atanmamış"
+  },
+  "qlPressKeys": {
+    "message": "Yeni tuş kombinasyonuna basın…"
+  },
+  "qlInvalid": {
+    "message": "\"$1\" kısayol olarak kullanılamaz."
+  },
+  "imName": {
+    "message": "Boşta kilitleme"
+  },
+  "imDescription": {
+    "message": "Bilgisayardan uzaklaştığınızda otomatik kilitleyin."
+  },
+  "imDuration": {
+    "message": "Kilitlemeden önce boşta kalma süresi"
+  },
+  "imDurationHint": {
+    "message": "Klavye veya fare etkinliği olmadan $1 dakika sonra kilitlenir."
+  },
+  "imNotify": {
+    "message": "Kilitlemeden önce bildir"
+  },
+  "obStepWelcome": {
+    "message": "Hoş geldiniz"
+  },
+  "obStepPassword": {
+    "message": "Parola"
+  },
+  "obWelcomeTitle": {
+    "message": "BrowserAway'e hoş geldiniz"
+  },
+  "obWelcomeBody": {
+    "message": "Tarayıcınızı parolayla koruyun. Kilitlendiğinde tüm pencereler kapanır ve yalnızca doğru parola onları geri getirir."
+  },
+  "obStart": {
+    "message": "Başla"
+  },
+  "obPasswordTitle": {
+    "message": "Parolanızı oluşturun"
+  },
+  "obPasswordBody": {
+    "message": "En az 6 karakterli bir parola seçin. Unutursanız geri alınamaz."
+  },
+  "obPassword": {
+    "message": "Parola"
+  },
+  "obPasswordAgain": {
+    "message": "Parolayı tekrarlayın"
+  },
+  "obFinish": {
+    "message": "Kaydet ve etkinleştir"
+  },
+  "errPasswordShort": {
+    "message": "En az $1 karakter kullanın."
+  },
+  "errPasswordMismatch": {
+    "message": "Parolalar eşleşmiyor."
+  },
+  "errPasswordSame": {
+    "message": "Yeni parola eskisinden farklı olmalı."
+  },
+  "errOldWrong": {
+    "message": "Mevcut parola yanlış."
+  },
+  "pwTitle": {
+    "message": "Parolayı değiştir"
+  },
+  "pwDescription": {
+    "message": "Mevcut parolanızı girin, ardından yenisini seçin."
+  },
+  "pwOld": {
+    "message": "Mevcut parola"
+  },
+  "pwOldHint": {
+    "message": "Kilidi açmak için kullandığınız parola."
+  },
+  "pwNew": {
+    "message": "Yeni parola"
+  },
+  "pwNewHint": {
+    "message": "En az 6 karakter, eskisinden farklı."
+  },
+  "pwAgain": {
+    "message": "Yeni parolayı tekrarlayın"
+  },
+  "pwAgainHint": {
+    "message": "Yeni parolayı bir kez daha yazın."
+  },
+  "pwSave": {
+    "message": "Parolayı kaydet"
+  },
+  "pwChanged": {
+    "message": "Parola değiştirildi."
+  }
+}

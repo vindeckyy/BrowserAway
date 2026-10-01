@@ -1,0 +1,16 @@
+{
+  "name": "browseraway",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lock Firefox with a password.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "lint": "web-ext lint --source-dir . --ignore-files \"docs\" \"docs/**\" \"*.md\" \"package*.json\" \".github/**\"",
+    "build": "web-ext build --source-dir . --artifacts-dir web-ext-artifacts --overwrite-dest --ignore-files \"docs\" \"docs/**\" \"*.md\" \"package*.json\" \".github/**\" LICENSE",
+    "start": "web-ext run --source-dir ."
+  },
+  "devDependencies": {
+    "web-ext": "^8.0.0"
+  }
+}

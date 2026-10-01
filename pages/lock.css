@@ -1,0 +1,114 @@
+body {
+  min-height: 100vh;
+  user-select: none;
+}
+
+.lock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+  min-height: 100vh;
+  padding: 28px 32px 18px;
+}
+
+.lock-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.badge {
+  display: grid;
+  place-items: center;
+  width: 112px;
+  height: 112px;
+  border: 4px solid var(--accent);
+  border-radius: 50%;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.badge svg {
+  transition: transform 0.5s;
+}
+
+.badge:hover svg {
+  transform: rotate(180deg);
+}
+
+.lock[data-quarantined="true"] .badge {
+  border-color: var(--danger);
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+
+.lock-title {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.lock-title .state {
+  color: var(--accent);
+}
+
+.lock[data-quarantined="true"] .lock-title .state {
+  color: var(--danger);
+}
+
+.lock-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.lock-form label {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.password-wrap {
+  position: relative;
+}
+
+.password-wrap .input {
+  padding: 12px 44px 12px 12px;
+  font-size: 19px;
+  border-width: 2px;
+}
+
+.password-wrap .icon-btn {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+}
+
+.alert {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  background: var(--danger-soft);
+  color: var(--danger);
+  font-size: 14px;
+}
+
+.alert[hidden] {
+  display: none;
+}
+
+.lock-foot {
+  text-align: center;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* Keep toasts clear of the title. */
+#toasts {
+  top: auto;
+  bottom: 56px;
+}

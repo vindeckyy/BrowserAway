@@ -1,0 +1,359 @@
+{
+  "extName": {
+    "message": "BrowserAway"
+  },
+  "extDescription": {
+    "message": "Lock your browser with a password. Every window closes until the right password is entered. Includes auto-lock, idle lock and a brute-force quarantine."
+  },
+  "commandLockNow": {
+    "message": "Lock the browser now"
+  },
+  "menuLockBrowser": {
+    "message": "Lock Browser"
+  },
+  "menuLockNow": {
+    "message": "Lock Now"
+  },
+  "menuOpenSettings": {
+    "message": "Open Settings"
+  },
+  "notifActivateTitle": {
+    "message": "BrowserAway is not active yet"
+  },
+  "notifActivateBody": {
+    "message": "Click here to set a password and turn on protection."
+  },
+  "notifIdleTitle": {
+    "message": "Locking in $1 seconds"
+  },
+  "notifIdleBody": {
+    "message": "You have been idle. Move the mouse or press a key to cancel."
+  },
+  "notifLockedNewWindow": {
+    "message": "The browser is locked. Enter your password to open it."
+  },
+  "popupLockBrowser": {
+    "message": "Lock Browser"
+  },
+  "popupOpenSettings": {
+    "message": "Open Settings"
+  },
+  "navSettings": {
+    "message": "Settings"
+  },
+  "navPassword": {
+    "message": "Change Password"
+  },
+  "navToggleTheme": {
+    "message": "Toggle dark mode"
+  },
+  "ok": {
+    "message": "OK"
+  },
+  "back": {
+    "message": "Back"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "yes": {
+    "message": "Yes"
+  },
+  "no": {
+    "message": "No"
+  },
+  "clear": {
+    "message": "Clear"
+  },
+  "dontClear": {
+    "message": "Don't clear"
+  },
+  "pleaseInput": {
+    "message": "Please enter a value"
+  },
+  "minutes": {
+    "message": "$1 min"
+  },
+  "toastError": {
+    "message": "Error"
+  },
+  "toastWarning": {
+    "message": "Warning"
+  },
+  "toastSuccess": {
+    "message": "Success"
+  },
+  "lockThisBrowser": {
+    "message": "This browser is"
+  },
+  "lockStateLocked": {
+    "message": "locked"
+  },
+  "lockStateQuarantined": {
+    "message": "quarantined"
+  },
+  "lockPasswordLabel": {
+    "message": "Enter your password to unlock"
+  },
+  "lockShowPassword": {
+    "message": "Show password"
+  },
+  "lockHidePassword": {
+    "message": "Hide password"
+  },
+  "lockUnlock": {
+    "message": "Unlock"
+  },
+  "lockErrorEmpty": {
+    "message": "Please enter your password."
+  },
+  "lockErrorWrong": {
+    "message": "Wrong password. Try again."
+  },
+  "lockErrorQuarantined": {
+    "message": "Quarantine is active. Wait until it ends."
+  },
+  "lockErrorFailed": {
+    "message": "Something went wrong: $1"
+  },
+  "lockQuarantineTitle": {
+    "message": "Quarantine active"
+  },
+  "lockQuarantineBody": {
+    "message": "$1 wrong attempts triggered quarantine. You can try again in $2 seconds."
+  },
+  "lockToastQuarantined": {
+    "message": "Too many wrong attempts. Quarantine started."
+  },
+  "lockToastAttempts": {
+    "message": "Wrong attempts: $1 of $2. Quarantine starts at $2."
+  },
+  "setMainHelp": {
+    "message": "Master switch. While it is off, BrowserAway never locks the browser."
+  },
+  "setSave": {
+    "message": "Apply Changes"
+  },
+  "setSaved": {
+    "message": "Settings saved."
+  },
+  "bannerInactive": {
+    "message": "BrowserAway is switched off, so your browser is not protected. Turn on the main switch and apply the changes."
+  },
+  "bannerDontRemind": {
+    "message": "Don't remind me again"
+  },
+  "bannerPrivateWindows": {
+    "message": "Private windows are not locked because BrowserAway may not run in them. Allow it under about:addons → BrowserAway → Run in Private Windows."
+  },
+  "alName": {
+    "message": "Auto Lock"
+  },
+  "alDescription": {
+    "message": "Lock the browser automatically when it starts, and choose what opens after you unlock it."
+  },
+  "alStartState": {
+    "message": "After unlocking, open"
+  },
+  "alStartStateHint": {
+    "message": "Applies after an automatic lock."
+  },
+  "alStateUrl": {
+    "message": "A specific page"
+  },
+  "alStateNewTab": {
+    "message": "A new tab"
+  },
+  "alStateRestore": {
+    "message": "Previous windows"
+  },
+  "alStartUrl": {
+    "message": "Page address"
+  },
+  "alStartUrlHint": {
+    "message": "Opened in a fresh window after an automatic lock."
+  },
+  "errInvalidUrl": {
+    "message": "Enter a valid web address (http or https)."
+  },
+  "qmName": {
+    "message": "Quarantine Mode"
+  },
+  "qmHelp": {
+    "message": "After too many wrong passwords the lock screen refuses input for a while and can wipe browsing data."
+  },
+  "qmDuration": {
+    "message": "Quarantine duration"
+  },
+  "qmDurationHint": {
+    "message": "After $1 wrong attempts the browser stays locked for $2 minute(s) and accepts no input."
+  },
+  "qmMaxAttempts": {
+    "message": "Wrong attempts before quarantine"
+  },
+  "qmMaxAttemptsHint": {
+    "message": "Between 1 and 20."
+  },
+  "qmClearHistory": {
+    "message": "Clear browsing data on quarantine"
+  },
+  "qmClearHistoryHint": {
+    "message": "When $1 wrong attempts are reached, the selected data is deleted. Needs the browsing data permission."
+  },
+  "qmPermissionDenied": {
+    "message": "Permission was not granted, so browsing data will not be cleared."
+  },
+  "qmClearOptionsTitle": {
+    "message": "Data to clear"
+  },
+  "qmClearOptionsHint": {
+    "message": "Deleted when $1 wrong attempts trigger quarantine; covers the last $2 day(s)."
+  },
+  "qmClearDurationTitle": {
+    "message": "Time range"
+  },
+  "qmClearDurationAlert": {
+    "message": "Warning: this permanently deletes the selected data from the last $1 day(s)."
+  },
+  "clearDuration1": {
+    "message": "Last day"
+  },
+  "clearDuration7": {
+    "message": "Last 7 days"
+  },
+  "clearDuration30": {
+    "message": "Last 30 days"
+  },
+  "clearDuration365": {
+    "message": "Last year"
+  },
+  "qmCookies": {
+    "message": "Cookies"
+  },
+  "qmPasswords": {
+    "message": "Saved passwords"
+  },
+  "qmDownloads": {
+    "message": "Download history"
+  },
+  "qmFormData": {
+    "message": "Form data"
+  },
+  "qmHistory": {
+    "message": "Browsing history"
+  },
+  "qlName": {
+    "message": "Quick Lock"
+  },
+  "qlDescription": {
+    "message": "Lock instantly from the keyboard."
+  },
+  "qlCombination": {
+    "message": "Shortcut"
+  },
+  "qlCombinationHint": {
+    "message": "Press Change, then type the new combination. Esc cancels."
+  },
+  "qlChange": {
+    "message": "Change"
+  },
+  "qlReset": {
+    "message": "Reset"
+  },
+  "qlUnassigned": {
+    "message": "Not set"
+  },
+  "qlPressKeys": {
+    "message": "Press the new key combination…"
+  },
+  "qlInvalid": {
+    "message": "\"$1\" can't be used as a shortcut."
+  },
+  "imName": {
+    "message": "Idle Lock"
+  },
+  "imDescription": {
+    "message": "Lock automatically when you have been away from the computer."
+  },
+  "imDuration": {
+    "message": "Idle time before locking"
+  },
+  "imDurationHint": {
+    "message": "Locks after $1 minute(s) without keyboard or mouse activity."
+  },
+  "imNotify": {
+    "message": "Notify before locking"
+  },
+  "obStepWelcome": {
+    "message": "Welcome"
+  },
+  "obStepPassword": {
+    "message": "Password"
+  },
+  "obWelcomeTitle": {
+    "message": "Welcome to BrowserAway"
+  },
+  "obWelcomeBody": {
+    "message": "Protect your browser with a password. When it is locked, every window closes and only the right password brings them back."
+  },
+  "obStart": {
+    "message": "Get started"
+  },
+  "obPasswordTitle": {
+    "message": "Create your password"
+  },
+  "obPasswordBody": {
+    "message": "Choose a password with at least 6 characters. It cannot be recovered if you forget it."
+  },
+  "obPassword": {
+    "message": "Password"
+  },
+  "obPasswordAgain": {
+    "message": "Repeat password"
+  },
+  "obFinish": {
+    "message": "Save and activate"
+  },
+  "errPasswordShort": {
+    "message": "Use at least $1 characters."
+  },
+  "errPasswordMismatch": {
+    "message": "Passwords don't match."
+  },
+  "errPasswordSame": {
+    "message": "The new password must differ from the old one."
+  },
+  "errOldWrong": {
+    "message": "The current password is wrong."
+  },
+  "pwTitle": {
+    "message": "Change Password"
+  },
+  "pwDescription": {
+    "message": "Enter your current password, then choose a new one."
+  },
+  "pwOld": {
+    "message": "Current password"
+  },
+  "pwOldHint": {
+    "message": "The password you use to unlock."
+  },
+  "pwNew": {
+    "message": "New password"
+  },
+  "pwNewHint": {
+    "message": "At least 6 characters, different from the old one."
+  },
+  "pwAgain": {
+    "message": "Repeat new password"
+  },
+  "pwAgainHint": {
+    "message": "Type the new password again."
+  },
+  "pwSave": {
+    "message": "Save password"
+  },
+  "pwChanged": {
+    "message": "Password changed."
+  }
+}

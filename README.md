@@ -41,6 +41,31 @@ Firefox release builds only run **signed** add-ons, so pick one:
 Build the zip with `npm install && npm run build` (output in `web-ext-artifacts/`), or download it from
 [Releases](https://github.com/vindeckyy/BrowserAway/releases).
 
+### Let an AI agent install it
+
+Paste this into a coding agent that can run commands on your machine (Claude Code, Codex, etc.):
+
+````text
+Install the Firefox extension BrowserAway (https://github.com/vindeckyy/BrowserAway) into my Firefox.
+
+1. Check that git and Node.js (npm) are installed, and find my Firefox version and edition
+   (release, ESR, Developer Edition or Nightly). It must be Firefox 140 or newer.
+2. Clone the repo, then run `npm install && npm run build`. The zip lands in `web-ext-artifacts/`.
+3. Install it based on my edition:
+   - Developer Edition, Nightly or ESR: tell me to set `xpinstall.signatures.required` to `false` in
+     `about:config`, then open the zip with that Firefox (drag it onto a window, or run the Firefox binary
+     with the zip path as its argument). This stays installed.
+   - Regular release Firefox: it only runs signed add-ons. Ask me whether I want (a) a temporary install, or
+     (b) to sign it as an unlisted add-on on addons.mozilla.org. For (a), run `npm run start` in the repo, or
+     tell me to open `about:debugging#/runtime/this-firefox`, click "Load Temporary Add-on…" and pick
+     `manifest.json`. A temporary install is removed when Firefox restarts.
+4. Tell me to open `about:addons` → BrowserAway → "Run in Private Windows" if I want private windows locked.
+5. Remind me to pick a password of at least 6 characters on the settings page that opens. There is no
+   password recovery.
+
+Do not edit my Firefox profile files directly. Tell me each step you can't do yourself.
+````
+
 After installing, the settings page opens (or open it from the toolbar popup). Pick a password of at least 6
 characters and BrowserAway is active.
 

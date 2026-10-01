@@ -22,8 +22,8 @@ fully offline: **no accounts, no servers, no telemetry.**
 - **Quarantine mode** – after 1–20 wrong passwords the lock screen refuses all input for 1–15 minutes (even the
   correct password) and can optionally delete cookies, saved passwords, downloads, form data and/or history from the
   last 1 / 7 / 30 / 365 days.
-- **Quick lock** – `Ctrl+M` (`Command+M` on macOS), re-bindable from the settings page; also in the toolbar popup and
-  the right-click menu (*BrowserAway → Lock Browser → Lock Now*).
+- **Quick lock** – `Ctrl+Shift+L` (`Command+Shift+L` on macOS), re-bindable from the settings page; also in the
+  toolbar popup and the right-click menu (*BrowserAway → Lock Browser → Lock Now*).
 - Light and dark theme; English, Spanish and Turkish.
 
 ## Install

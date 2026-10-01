@@ -42,8 +42,8 @@
   "commands": {
     "lock_browser_now_fixed": {
       "suggested_key": {
-        "default": "Ctrl+M",
-        "mac": "Command+M"
+        "default": "Ctrl+Shift+L",
+        "mac": "Command+Shift+L"
       },
       "description": "__MSG_commandLockNow__"
     }

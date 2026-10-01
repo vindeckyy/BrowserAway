@@ -4,8 +4,13 @@ All notable changes are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
-## [1.0.0] - 2026-10-01
+## [Unreleased]
 
+### Fixed
+- Quick lock shortcut defaulted to `Ctrl+M`, which Firefox reserves and refuses to bind, so the shortcut never
+  fired on a fresh install. The default is now `Ctrl+Shift+L` (`Command+Shift+L` on macOS).
+
+## [1.0.0] - 2026-10-01
 Initial release.
 
 ### Added

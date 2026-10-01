@@ -1,5 +1,6 @@
 import { h, icon, t, toast } from "../../src/shared/dom.js";
 import { getConfig, patchConfig } from "../../src/shared/config.js";
+import { normalizeUrl } from "../../src/shared/url.js";
 
 const COMMAND_NAME = "lock_browser_now_fixed";
 const CLEAR_TYPES = ["cookies", "passwords", "downloads", "formData", "history"];
@@ -20,17 +21,7 @@ function setPath(object, path, value) {
   keys.reduce((value, key) => value[key], object)[last] = value;
 }
 
-function validUrl(raw) {
-  const text = String(raw ?? "").trim();
-  if (!text) return false;
-  return [text, `https://${text}`].some((candidate) => {
-    try {
-      return ["http:", "https:", "about:"].includes(new URL(candidate).protocol);
-    } catch {
-      return false;
-    }
-  });
-}
+const validUrl = (raw) => normalizeUrl(raw) !== null;
 
 // ---------------------------------------------------------------- shortcut capture
 

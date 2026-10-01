@@ -8,6 +8,7 @@
 import { DEFAULT_LOCK_STATE } from "./shared/defaults.js";
 import { getConfig, patchConfig } from "./shared/config.js";
 import { verifyPassword } from "./shared/password.js";
+import { normalizeUrl } from "./shared/url.js";
 
 const LOCK_WINDOW = { width: 712, height: 616 };
 const ICON = "icons/icon-128.png";
@@ -157,20 +158,6 @@ async function restoreWindow(snapshot) {
     }
   }
   return win;
-}
-
-function normalizeUrl(raw) {
-  const text = String(raw ?? "").trim();
-  if (!text) return null;
-  for (const candidate of [text, `https://${text}`]) {
-    try {
-      const url = new URL(candidate);
-      if (["http:", "https:", "about:"].includes(url.protocol)) return url.href;
-    } catch {
-      /* try next candidate */
-    }
-  }
-  return null;
 }
 
 /** Re-opens the user's browser after an unlock according to their auto-lock preference. */

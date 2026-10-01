@@ -2,6 +2,7 @@
 // browser can wake this page for any of these events.
 
 import { getConfig, patchConfig } from "./shared/config.js";
+import { t as msg } from "./shared/dom.js";
 import {
   attemptUnlock,
   ensureLockScreen,
@@ -14,7 +15,6 @@ import {
   whenIdle,
 } from "./lock.js";
 
-const msg = (name, ...subs) => browser.i18n.getMessage(name, subs.map(String));
 const IDLE_NOTIFICATION = "browseraway-idle";
 const IDLE_GRACE_SECONDS = 5;
 

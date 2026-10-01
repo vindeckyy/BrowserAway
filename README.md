@@ -60,7 +60,12 @@ Install the Firefox extension BrowserAway (https://github.com/vindeckyy/BrowserA
      tell me to open `about:debugging#/runtime/this-firefox`, click "Load Temporary Add-on…" and pick
      `manifest.json`. A temporary install is removed when Firefox restarts.
 4. Tell me to open `about:addons` → BrowserAway → "Run in Private Windows" if I want private windows locked.
-5. Remind me to pick a password of at least 6 characters on the settings page that opens. There is no
+5. Check that the quick-lock shortcut really works. Open `about:addons` → BrowserAway → "Manage Extension
+   Shortcuts" (the gear icon). BrowserAway's "Lock the browser now" should read `Ctrl+Shift+L`. If it reads
+   "Not set", or if the key does nothing when pressed, click Reset and rebind it to a combination the browser
+   is not already using: Firefox will accept a key that is already claimed and display it, but then never
+   deliver the event to the extension. Confirm the new key by pressing it.
+6. Remind me to pick a password of at least 6 characters on the settings page that opens. There is no
    password recovery.
 
 Do not edit my Firefox profile files directly. Tell me each step you can't do yourself.
